@@ -9,7 +9,7 @@ let count = document.getElementById("counter");
 
 counter = 0;
 btn.addEventListener("click", function () {
-  if (btn.innerHTML == "") {
+  if (btn.innerHTML == "" || btn.innerHTML == "ابدأ بالذكر") {
     alert("برجاء اختيار الذكر❤️");
   } else {
     counter++;
