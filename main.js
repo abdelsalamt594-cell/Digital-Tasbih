@@ -13,7 +13,7 @@ const input = document.getElementById("input");
 
 counter = 0;
 btn.addEventListener("click", function () {
-  if (btn.innerHTML == "" || btn.innerHTML == "ابدأ بالذكر") {
+  if (btn.innerHTML == "ابدأ بالذكر") {
     alert("برجاء اختيار الذكر❤️");
   } else {
     counter++;
