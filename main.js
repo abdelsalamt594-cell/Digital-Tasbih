@@ -85,4 +85,16 @@ btn3.addEventListener("click", function () {
     input.value = "";
   }
 });
-countainer1.appendChild(localStorage.getItem("elements"));
+const savedDhikr = localStorage.getItem("elements");
+
+if (savedDhikr) {
+  const element = document.createElement("h3");
+  element.textContent = savedDhikr;
+  countainer1.appendChild(element);
+
+  element.addEventListener("click", function () {
+    btn.innerHTML = savedDhikr;
+    count.innerHTML = 0;
+    counter = 0;
+  });
+}
