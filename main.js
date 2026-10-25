@@ -24,6 +24,9 @@ btn.addEventListener("click", function () {
   if (counter == 33) {
     alert(`لقد اتممت ثلاثة و ثلاثون ${btn.innerHTML}`);
   }
+  if (counter == 100) {
+    alert(`لقد اتممت مائة  ${btn.innerHTML}`);
+  }
 });
 
 btn2.addEventListener("click", function () {
