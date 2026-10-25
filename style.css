@@ -1,5 +1,6 @@
 body {
   font-family: "Cairo Play", sans-serif;
+  background-color: #ede8e8;
 }
 
 .countainer1 {
@@ -26,9 +27,56 @@ body {
 
 #btn {
   border-radius: 20px;
-  border: solid 1px black;
-  background-color: black;
+  border: solid 1px #245c48;
+  background-color: #245c48;
   font-family: "Cairo Play", sans-serif;
   color: white;
   font-size: 30px;
+  margin-right: 20px;
+}
+
+#btn2 {
+  border-radius: 20px;
+  border: solid 1px #245c48;
+  background-color: #245c48;
+  font-family: "Cairo Play", sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+#input {
+  width: 300px;
+  padding: 16px 18px;
+  border: 1px solid #d8dfd5;
+  border-radius: 14px;
+  background: #ffffff;
+  color: #263d32;
+  font-size: 16px;
+  outline: none;
+  transition: 0.25s ease;
+}
+
+#input::placeholder {
+  color: #9aa69d;
+  font-family: "Cairo Play", sans-serif;
+}
+
+#input:focus {
+  border-color: #39765d;
+  box-shadow: 0 0 0 4px rgba(57, 118, 93, 0.12);
+}
+
+#btn3 {
+  border-radius: 10px;
+  border: solid 1px #245c48;
+  background-color: #245c48;
+  font-family: "Cairo Play", sans-serif;
+  color: white;
+  font-size: 20px;
+  width: 335px;
+  margin-top: 10px;
+}
+
+.input {
+  text-align: center;
 }
